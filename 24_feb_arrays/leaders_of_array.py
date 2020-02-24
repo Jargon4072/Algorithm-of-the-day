@@ -3,7 +3,7 @@ def leaders(arr):
     max=arr[len(arr)-1]
     n=len(arr)-1
     for i in range(0,len(arr)):
-        if(arr[n-i]>=max):
+        if(arr[n-i]>=max):           # traverse from right and compare each element with max
             #print(arr[n-i],end=" ")
             res.append(arr[n-i])
             max=arr[n-i]

@@ -7,7 +7,7 @@ def max_subarr_sizek(arr,k):
     h = arr[i:j + 1]
     hpq._heapify_max(h)
     #print(h[0], end =" ")
-    res.append(h[0])
+    res.append(h[0])                      #after heapify, top element will be maximum of all 
     last = arr[i]
     i+= 1
     j+= 1

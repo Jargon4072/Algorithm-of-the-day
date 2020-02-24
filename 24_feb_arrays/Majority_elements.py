@@ -4,7 +4,7 @@ def count_majority(arr):
     hash=[0*10000000]*10000000
     for i in arr:
         val=int(i)
-        hash[val]+=1
+        hash[val]+=1             #concept of hashing is used. hash[] used to store count of each element
         if(hash[val]>(n/2)):
             flag=1
             #print(hash[val])

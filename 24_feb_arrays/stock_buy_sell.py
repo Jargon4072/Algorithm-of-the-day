@@ -7,11 +7,11 @@ def stock_buy_sell(arr):
     max_v=[]
     n=len(arr)
     for i in range(0,len(arr)):
-        if((i!=0 and i!=n-1 and arr[i]<arr[i-1] and arr[i]<arr[i+1]) or (i==0 and arr[i]<arr[i+1])):
+        if((i!=0 and i!=n-1 and arr[i]<arr[i-1] and arr[i]<arr[i+1]) or (i==0 and arr[i]<arr[i+1])):      #stores local mimima
             min_v.append(i)
-        if((i!=0 and i!=n-1 and arr[i]>arr[i-1] and arr[i]>arr[i+1]) or (i==n-1 and arr[i]>arr[i-1])):
+        if((i!=0 and i!=n-1 and arr[i]>arr[i-1] and arr[i]>arr[i+1]) or (i==n-1 and arr[i]>arr[i-1])):     #stores local maxima
             max_v.append(i)
-    if(len(min_v)==len(max_v)):
+    if(len(min_v)==len(max_v)):            #if equal no of local maxima and minima found, print each as pair
         for i in range(0,len(min_v)):
             print("("+str(min_v[i])+" "+str(max_v[i])+")", end=" ")
             flag=1

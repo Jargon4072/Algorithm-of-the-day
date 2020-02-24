@@ -6,7 +6,7 @@ def trappingWater(a,n):
     right_max = 0
     left = 0
     right = n - 1
-    while left <= right:
+    while left <= right:            #iterate from left and right
         if a[left] <= a[right]:
             if left_max < a[left]:
                 left_max = a[left]
