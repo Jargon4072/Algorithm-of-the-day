@@ -2,7 +2,7 @@
 # @Date:   2020-02-26T07:39:31+05:30
 # @Email:  chandandwivedi795@gmail.com
 # @Last modified by:   Dwivedi Chandan
-# @Last modified time: 2020-02-27T20:35:03+05:30
+# @Last modified time: 2020-02-27T20:58:08+05:30
 #============================================= PROBLEM Statement ===============================================================
 '''
 You are given an array A (distinct elements) of size N. Find out the maximum difference between any two elements such that larger element appears after the smaller number in A.
@@ -43,16 +43,21 @@ Testcase2: Array is [ 7, 9, 5, 6, 3, 2 ] then returned value is 2 (Diff between 
 
 import collections
 
+# approach: use deque and store smallest value at leftmost end and largest value at rightmost end.
 def max_diff(arr):
+
+    #initialise a dque and push arr[0] (i.e. first element)
     dq = collections.deque([arr[0]])
     diff=0
     flag=0
     for i in range(1,len(arr)):
         if(arr[i]>dq[-1]):
+            # if the array element is grater than rightmost value of deque, push it on right.
             dq.append(arr[i])
-            diff=max(diff,abs(dq[0]-arr[i]))
+            diff=max(diff,abs(dq[0]-arr[i]))        #maximum difference
             flag=1
         else:
+            # if smaller values comes, pop until rightmost value becomes smaller or dq becomes empty.
             while(dq and (dq[-1]>arr[i])):
                 dq.pop()
             dq.append(arr[i])
