@@ -5,15 +5,21 @@
 # @Last modified time: 2020-02-27T20:37:36+05:30
 #============================================================================================================================
 '''
-You start with an array A of size N. Also, A[i] = 0 for i = 1 to N. You will be given K positive integers. Let j be one of these integers, you have to add 1 to all A[i], for i >= j. Your task is to print the array A after all these K updates are done.
+You start with an array A of size N. Also, A[i] = 0 for i = 1 to N. You will be given K positive integers.
+Let j be one of these integers, you have to add 1 to all A[i], for i >= j. 
+Your task is to print the array A after all these K updates are done.
 
 
 Input:
-The first line of input contains an integer  T, denoting the number of test cases. Then T test cases follow. The first line of each test case consists of two space separated positive integers N and K. The second line consists of K space separated integers.
+The first line of input contains an integer  T, denoting the number of test cases. 
+Then T test cases follow. 
+The first line of each test case consists of two space separated positive integers N and K. 
+The second line consists of K space separated integers.
 
 
 Output:
-For each test case, in a new line print the array A from the first index to the last index after the K updates are done. Consecutive values are to be separated by a single space between them while printing.
+For each test case, in a new line print the array A from the first index to the last index after the K updates are done. 
+Consecutive values are to be separated by a single space between them while printing.
 
 
 Constraints:
@@ -34,10 +40,12 @@ Output:
 
 Explanation:
 First Test Case
-Initially the array is {0, 0, 0}. After the first 1, it becomes {1, 1, 1}. After the second 1 it becomes {2, 2, 2}. After 2, it becomes {2, 3, 3}. After 3 it becomes, {2, 3, 4}.
+Initially the array is {0, 0, 0}. After the first 1, it becomes {1, 1, 1}. 
+After the second 1 it becomes {2, 2, 2}. After 2, it becomes {2, 3, 3}. After 3 it becomes, {2, 3, 4}.
 
 Second Test Case
-Initially the array is {0, 0}. After the first 1, it becomes {1, 1}. After the second 1 it becomes {2, 2}. After the third 1, it becomes {3, 3}.
+Initially the array is {0, 0}. After the first 1, it becomes {1, 1}. 
+After the second 1 it becomes {2, 2}. After the third 1, it becomes {3, 3}.
 '''
 #=======================================================================================================================================
 

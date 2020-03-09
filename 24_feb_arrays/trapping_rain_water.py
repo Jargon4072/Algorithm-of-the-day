@@ -1,9 +1,12 @@
 #===========================================PROBLEM Statement =====================================================================
 '''
-Given an array arr[] of N non-negative integers representing height of blocks at index i as Ai where the width of each block is 1. Compute how much water can be trapped in between blocks after raining.
+Given an array arr[] of N non-negative integers representing height of blocks at index i as Ai 
+where the width of each block is 1. Compute how much water can be trapped in between blocks after raining.
 
 Input:
-The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows. Each test case contains an integer N denoting the size of the array, followed by N space separated numbers to be stored in array.
+The first line of input contains an integer T denoting the number of test cases. 
+The description of T test cases follows. Each test case contains an integer N denoting the size of the array, 
+followed by N space separated numbers to be stored in array.
 
 Output:
 Output the total unit of water trapped in between the blocks.

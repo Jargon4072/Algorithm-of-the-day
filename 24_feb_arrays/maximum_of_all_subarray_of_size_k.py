@@ -1,9 +1,12 @@
 #================================================= Problem Statement ======================================
 '''
-Given an array A and an integer K. Find the maximum for each and every contiguous subarray of size K.
+Given an array A and an integer K.
+ Find the maximum for each and every contiguous subarray of size K.
 
 Input:
-The first line of input contains an integer T denoting the number of test cases. The first line of each test case contains a single integer N denoting the size of array and the size of subarray K. The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the array.
+The first line of input contains an integer T denoting the number of test cases. 
+The first line of each test case contains a single integer N denoting the size of array and the size of subarray K. 
+The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the array.
 
 Output:
 Print the maximum for every subarray of size k.
