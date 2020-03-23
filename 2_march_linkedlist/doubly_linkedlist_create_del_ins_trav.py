@@ -2,7 +2,9 @@
 # @Date:   2020-03-15T17:43:46+05:30
 # @Email:  chandandwivedi795@gmail.com
 # @Last modified by:   Dwivedi Chandan
-# @Last modified time: 2020-03-20T14:55:25+05:30
+# @Last modified time: 2020-03-23T11:50:12+05:30
+
+import gc
 
 class Node:
     def __init__(self,data):
@@ -50,6 +52,23 @@ class Doublyll:
         new_node.prev=curr_node.prev
         curr_node.prev=new_node
 
+
+    def del_node(self,node):
+        if self.head is None or node is None:
+            return
+        if(self.head==node):
+            self.head=node.next
+
+        if(node.next is not None):
+            node.next.prev=node.prev
+
+        if(node.prev is not None):
+            node.prev.next=node.next
+
+        gc.collect()
+
+
+
     def printll(self):
         if self.head is not None:
             tmp=self.head
@@ -74,6 +93,15 @@ print("Enter number to push at front in linked list:")
 x=int(input())
 
 llist.push_front(x)
+
+print("List is: ")
+llist.printll()
+
+print("deleting third node from start.....")
+dnode=llist.head.next.next
+llist.del_node(dnode)
+print("deleted third node")
+
 
 print("List is: ")
 llist.printll()
