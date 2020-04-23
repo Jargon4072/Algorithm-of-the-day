@@ -1,0 +1,9 @@
+Majority Element ( https://practice.geeksforgeeks.org/problems/majority-element/0/?track=md-arrays&batchId=144 )
+
+Stock buy and sell ( https://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0/?track=md-arrays&batchId=144)
+
+Leaders in an array (https://practice.geeksforgeeks.org/problems/leaders-in-an-array/0/?track=md-arrays&batchId=144)
+
+Trapping Rain Water (https://practice.geeksforgeeks.org/problems/trapping-rain-water/1/?track=md-arrays&batchId=144)
+
+Maximum of all subarrays of size k (https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0/?track=sp-arrays-and-searching&batchId=152)
