@@ -34,7 +34,7 @@ if __name__ == "__main__":
     inorder = [int(x) for x in input().strip().split()]
     print("Enter Preorder Traversal Sequence: ")
     preorder = [int(x) for x in input().strip().split()]
-    construct_tree.var=0
+    construct_tree.var=0    #TODO: Explore more about this naming convention of variable
 
     root=construct_tree(inorder, preorder,0,len(inorder)-1)
     root.print_inorder_tree(root)
