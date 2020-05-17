@@ -1,3 +1,9 @@
+'''
+
+Given a binary tree. Return maximum element of it.
+
+'''
+
 class treenode:
     def __init__(self,data):
         self.data=data

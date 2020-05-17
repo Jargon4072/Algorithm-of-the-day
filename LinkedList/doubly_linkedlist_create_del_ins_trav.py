@@ -2,7 +2,19 @@
 # @Date:   2020-03-15T17:43:46+05:30
 # @Email:  chandandwivedi795@gmail.com
 # @Last modified by:   Dwivedi Chandan
-# @Last modified time: 2020-03-23T11:50:12+05:30
+# @Last modified time: 2020-05-17T18:45:44+05:30
+
+
+#==================================================== Problem Statement ================================
+'''
+Write a code to do follwing for Doubly Linked List:
+1. Create a Doubly linked list from inputs by user
+2. insert a node in Doubly Linked list
+3. Traverse in Doubly Linked List
+4. Delete a value in Doubly linked list
+'''
+#=======================================================================================================
+
 
 import gc
 

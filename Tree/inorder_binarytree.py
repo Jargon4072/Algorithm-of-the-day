@@ -2,8 +2,13 @@
 # @Date:   2020-04-13T23:58:40+05:30
 # @Email:  chandandwivedi795@gmail.com
 # @Last modified by:   Dwivedi Chandan
-# @Last modified time: 2020-04-19T01:35:21+05:30
+# @Last modified time: 2020-05-17T22:15:03+05:30
 
+'''
+Write a code to print inorder traversal of a tree.
+1. implement it recursively
+2. implement it Iteratively
+'''
 
 
 class treenode:

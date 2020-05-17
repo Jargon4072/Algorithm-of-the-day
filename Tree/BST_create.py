@@ -2,8 +2,12 @@
 # @Date:   2020-05-14T14:30:24+05:30
 # @Email:  chandandwivedi795@gmail.com
 # @Last modified by:   Dwivedi Chandan
-# @Last modified time: 2020-05-17T13:37:54+05:30
+# @Last modified time: 2020-05-17T19:16:03+05:30
 
+'''
+Write a code to insert in a BST. Goal it to take input from user and create BST from it by inserting elements in BST
+
+'''
 
 class treenode:
     def __init__(self,data):

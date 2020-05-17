@@ -1,3 +1,10 @@
+'''
+Write a program to print pre order traversal of tree.
+1. Implement it recursively
+2. Implement it Iteratively
+'''
+
+
 class treenode:
     def __init__(self,data):
         self.data=data

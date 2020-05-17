@@ -1,3 +1,11 @@
+'''
+PROBLEM STATEMENT:
+
+Write a programe to find nth node from end. Optimize it.
+'''
+
+
+
 class Node:
     def __init__(self,data):
         self.data=data

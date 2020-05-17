@@ -1,3 +1,11 @@
+'''
+PROBLEM STATEMENT:
+
+Write a programe to find middle element of a linked list
+'''
+
+
+
 class Node:
     def __init__(self,data):
         self.data=data

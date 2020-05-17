@@ -1,3 +1,17 @@
+'''
+Write a program to Calculate Size of a tree
+Size of a tree is the number of elements present in the tree. Size of the below tree is 5.
+
+      1
+    /   \
+    2    3
+  /  \
+ 4    5
+Size of a tree = Size of left subtree + 1 + Size of right subtree.
+
+'''
+
+
 class treenode:
     def __init__(self,data):
         self.data=data

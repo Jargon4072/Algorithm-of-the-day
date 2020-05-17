@@ -2,9 +2,21 @@
 # @Date:   2020-04-05T10:37:10+05:30
 # @Email:  chandandwivedi795@gmail.com
 # @Last modified by:   Dwivedi Chandan
-# @Last modified time: 2020-04-06T22:00:39+05:30
+# @Last modified time: 2020-05-17T18:58:02+05:30
+
+'''
+Given an expression string exp , write a program to examine whether the pairs and the orders of “{“,”}”,”(“,”)”,”[“,”]” are correct in exp.
+
+Example:
+
+Input: exp = “[()]{}{[()()]()}”
+Output: Balanced
 
 
+
+Input: exp = “[(])”
+Output: Not Balanced
+'''
 
 from collections import deque
 class Solution:

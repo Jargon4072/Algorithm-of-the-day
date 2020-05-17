@@ -2,15 +2,17 @@
 # @Date:   2020-04-21T00:29:56+05:30
 # @Email:  chandandwivedi795@gmail.com
 # @Last modified by:   Dwivedi Chandan
-# @Last modified time: 2020-04-22T15:50:15+05:30
+# @Last modified time: 2020-05-17T22:37:04+05:30
 
 #################################################################################------|
-# Problem Statement:                                                                   |
-#                                                                                      |
-# Given a binary tree, a target node in the binary tree, and an integer value k,       |
-# print all the nodes that are at distance k from the given target node.               |
-# No parent pointers are available.                                                    |
-#                                                                                      |
+'''                                                                                    |
+Problem Statement:                                                                     |
+                                                                                       |
+Given a binary tree, a target node in the binary tree, and an integer value k,         |
+print all the nodes that are at distance k from the given target node.                 |
+No parent pointers are available.                                                      |
+                                                                                       |
+'''#                                                                                   |
 #################################################################################------|
 
 

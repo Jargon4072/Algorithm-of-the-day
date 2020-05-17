@@ -1,3 +1,8 @@
+'''
+Delete a node from BST
+
+'''
+
 class treenode:
     def __init__(self,data):
         self.data=data
@@ -23,4 +28,3 @@ class treenode:
         CASE 2: Node to be deleted has only one child: Copy the child to the node and delete the child
         CASE 3: Node to be deleted has two children: Find inorder successor/predecessor  of the node. Copy contents of the inorder successor/predecessor  to the node and delete the inorder successor/predecessor.'''
 
-    

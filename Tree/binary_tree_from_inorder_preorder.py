@@ -1,3 +1,16 @@
+'''
+Construct Tree from given Inorder and Preorder traversals
+Let us consider the below traversals:
+
+Inorder sequence: D B E A F C
+Preorder sequence: A B D E C F
+
+Output:
+Inorder traversal of the constructed tree is
+D B E A F C
+
+'''
+
 class treenode:
     def __init__(self, data):
         self.data = data

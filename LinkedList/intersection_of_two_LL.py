@@ -1,3 +1,12 @@
+'''
+PROBLEM STATEMENT:
+
+Write a program to find the node at which the intersection of two singly linked lists begins.
+
+'''
+
+
+
 class Node:
     def __init__(self,data):
         self.data=data

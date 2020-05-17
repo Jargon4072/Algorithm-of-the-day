@@ -1,3 +1,11 @@
+'''
+PROBLEM STATEMENT:
+
+Write a program to reverse a linkedlist in iterative way.
+
+'''
+
+
 class Node:
     def __init__(self,data):
         self.data=data

@@ -1,3 +1,25 @@
+'''
+
+Given a binary tree, write a function to get the maximum width of the given tree. Width of a tree is maximum of widths of all levels.
+Let us consider the below example tree.
+
+         1
+        /  \
+       2    3
+     /  \     \
+    4    5     8
+              /  \
+             6    7
+For the above tree,
+width of level 1 is 1,
+width of level 2 is 2,
+width of level 3 is 3
+width of level 4 is 2.
+
+So the maximum width of the tree is 3.
+
+'''
+
 from collections import deque
 class treenode:
     def __init__(self,data):
