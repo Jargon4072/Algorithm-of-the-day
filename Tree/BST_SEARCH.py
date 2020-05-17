@@ -2,9 +2,6 @@
 Write a program to search an key in BST.
 
 '''
-
-
-
 class treenode:
     def __init__(self,data):
         self.data=data
