@@ -17,4 +17,4 @@ Problem Count            |  Problem % Distribuations
 
 ###### Progress:
 
-<img src="./images/solved_dist.png" width="550" height="250"/>
+<img src="./images/solved_dist.png" width="650" height="450"/>
