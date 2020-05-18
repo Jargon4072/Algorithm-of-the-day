@@ -10,8 +10,8 @@ Description:
 
 An extensive classroom program to build and enhance Data Structures and Algorithm.
 
-###### Problems Distribuations:
-Problem Count            |  Problem % Distribuations
+###### Problems Distributions:
+Problem Count            |  Problem % Distributions
 :-------------------------:|:-------------------------:
 ![Problem counts](./images/problem_count.png)|![Problem counts](./images/problem_dist.png)
 
