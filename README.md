@@ -17,4 +17,4 @@ Problem Count            |  Problem % Distribuations
 
 ###### Progress:
 
-![Problem counts](./images/solved_dist.png)
+<img src="./images/solved_dist.png" width="550" height="250"/>
