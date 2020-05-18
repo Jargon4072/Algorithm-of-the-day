@@ -10,13 +10,11 @@ Description:
 
 An extensive classroom program to build and enhance Data Structures and Algorithm.
 
-##### Problems Distribuations:
-###### Problem Count            
-![Problem counts](./images/problem_count.png)
+###### Problems Distribuations:
+Problem Count            |  Problem % Distribuations
+:-------------------------:|:-------------------------:
+![Problem counts](./images/problem_count.png)|![Problem counts](./images/problem_dist.png)
 
-###### Problem % Distribuations
-![Problem counts](./images/problem_dist.png)
+###### Progress:
 
-##### Progress:
-
-<img src="./images/solved_dist.png" width="650" height="450"/>
+<img src="./images/solved_dist.png" width="550" height="400"/>
