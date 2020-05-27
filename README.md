@@ -1,5 +1,5 @@
 # Algorithm-of-the-day
-This repository contains codes fro few excellent cources and plateforms. This repostiory is created with focus on interview preparation. I will be updating codes regularly.
+This repository contains codes from few excellent Course and platforms. This repo is created with focus on interview preparation. I will be updating codes regularly.
 
 # Tracks:
 #### 1. Course | Geeks Classes
