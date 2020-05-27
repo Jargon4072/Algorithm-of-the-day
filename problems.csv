@@ -95,20 +95,20 @@
  The diameter of a Binary Tree ,1,5,Tree
  LCA problem with an efficient solution,1,5,Tree
 " BST, Create, search, delete",1,5,Tree
- Floor in BST ,0,5,Tree
+ Floor in BST ,1,5,Tree
  Self Balancing BST ,0,5,Tree
  AVL Tree ,0,5,Tree
  Red Black Tree ,0,5,Tree
- The ceiling of a key in BST,0,5,Tree
- Ceiling on the left side in an array ,0,5,Tree
- Find Kth Smallest in BST ,0,5,Tree
- Check for BST ,0,5,Tree
- Fix BST with Two Nodes Swapped ,0,5,Tree
- Pair Sum with given BST ,0,5,Tree
- Vertical Sum in a Binary Tree ,0,5,Tree
- Vertical Traversal of Binary Tree ,0,5,Tree
- Top View of Binary Tree ,0,5,Tree
- Bottom View of Binary Tree ,0,5,Tree
+ The ceiling of a key in BST,1,5,Tree
+ Ceiling on the left side in an array ,1,5,Tree
+ Find Kth Smallest in BST ,1,5,Tree
+ Check for BST ,1,5,Tree
+ Fix BST with Two Nodes Swapped ,1,5,Tree
+ Pair Sum with given BST ,1,5,Tree
+ Vertical Sum in a Binary Tree ,1,5,Tree
+ Vertical Traversal of Binary Tree ,1,5,Tree
+ Top View of Binary Tree ,1,5,Tree
+ Bottom View of Binary Tree ,1,5,Tree
 " Heaps, Introduction & Implementation",0,6,Heap
 " Binary Heap, Insertion",0,6,Heap
 " Binary Heap, Heapify and Extract",0,6,Heap
